@@ -1,0 +1,4 @@
+.highlight {
+    box-shadow: 0 0 30px 15px rgba(252, 169, 62, 0.9);
+    transition: box-shadow 0.8s ease-in-out;
+  }

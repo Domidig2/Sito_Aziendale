@@ -1,0 +1,27 @@
+.logo-effect {
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-effect:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8) hue-rotate(180deg);
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.9);
+}
+.menu-enter {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.menu-enter-active {
+    transform: translateX(0);
+}
+
+.menu-leave {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+}
+
+.menu-leave-active {
+    transform: translateX(100%);
+}

@@ -1,0 +1,31 @@
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff8c00, #ffce7a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-inline-color: transparent;
+}
+
+
+
+.blinking-cursor {
+  border-right: 1px solid #ffce7a;
+  animation: blink-caret 0.7s step-end infinite;
+}
+
+
+.neon-text {
+  text-shadow: none;
+}
+
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffce7a;
+  }
+}

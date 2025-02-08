@@ -4,9 +4,9 @@ import WordsSlider from '@/Components/WordsSlider';
 import ImageComponent from '@/Components/ImageComponent';
 import '../assets/css/InvestSection.css';
 
-import img1 from '@/assets/urban logo arancione qadrati crescenti 1.png';
-import img2 from '@/assets/urban logo arancione qadrati crescenti 2.png';
-import img3 from '@/assets/urban logo arancione qadrati crescenti 3.png';
+import img1 from '@/assets/images/logos/composizione1-removebg-preview.png';
+import img2 from '@/assets/composizione4-removebg-preview.png';
+import img3 from '@/assets/composizione5-removebg-preview.png';
 
 const images = [img1, img2, img3];
 

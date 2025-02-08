@@ -35,7 +35,7 @@ const ReservedSection = () => {
           Famiglia, Scuola o Impresa? Sostieni la libertà con la tua generosità.
         </motion.h3>
         <p className="text-gray-400 mb-10">
-        Qui nel quartiere Libertà, a due passi dalla fermata Brigata Bari, siamo una brigata affiatata: scegli la tua missione e unisciti a noi!
+        Ogni giorno troppe vite vengono spezzate sulla strada. Il tuo gesto può fare la differenza, dona per salvare una vita.
         </p>
 
         <div className="flex flex-col md:flex-row md:justify-evenly items-center space-y-8 md:space-y-0">

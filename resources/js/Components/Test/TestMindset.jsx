@@ -117,7 +117,7 @@ const TestMindset = () => {
       {/* Test content */}
       <div className="w-full max-w-3xl bg-gray-800 p-6 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold mb-6 text-primary-orange">
-          Test Mindset
+          Driving Challenge
         </h1>
         <QuestionRenderer
           question={currentQuestion}

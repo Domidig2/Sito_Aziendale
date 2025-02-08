@@ -1,37 +1,37 @@
 import GenericPageLayout from '@/Layouts/GenericPageLayout';
 
 // Immagini Loghi
-import LogoBando1 from '@/assets/RUNTS-nero.jpg';
-import LogoBando2 from '@/assets/RUNTS-nero.jpg';
-import LogoBando3 from '@/assets/RUNTS-nero.jpg';
-import LogoBando4 from '@/assets/RUNTS-nero.jpg';
+import LogoBando1 from '@/assets/auto1.jpg';
+import LogoBando2 from '@/assets/auto2.jpg';
+import LogoBando3 from '@/assets/auto3.jpg';
+import LogoBando4 from '@/assets/auto4.jpg';
 // Immagine principale
-import ImgPercorso from '@/assets/Immagine 24-10-24 - 15.26.jpg';
+import ImgPercorso from '@/assets/auto5.jpg';
 
 const BrandingPage = () => {
   return (
     <GenericPageLayout
       // Titolo
-      introTitle="Chi siamo"
+      introTitle="La nostra storia: Passione e Innovazione nel Mondo delle Auto"
       // Testi
       introTexts={[
-        "Urban Lab, Impresa Sociale iscritta al RUNTS, Registro Unico Nazionale del Terzo Settore. Sosteniamo la diversità e la crescita di Giovani & Donne, e sviluppiamo la loro intelligenza emotiva.",
-        "Non esistono ragioni di convenienza, solo logica ed etica: Il Neet è un Follower che vuole capire la logica dei sistemi di formazione e lavoro per scegliere.",
-        "Il tasso di disparità è un problema etico. La valutazione si basa su due variabili, psicologica e dinamica, ed offre un approccio strutturato per il cambio del Mindset.",
+        "Siamo nati con un obiettivo chiaro: unire tecnologia, design e innovazione per rivoluzionare il settore automobilistico.",
+        "Dalle prime idee alla realizzazione di soluzioni avanzate, abbiamo sempre creduto nell'evoluzione dell'industria automobilistica come motore del progresso.",
+        "La nostra missione è creare esperienze di guida uniche, combinando prestazioni, sicurezza e sostenibilità per soddisfare ogni tipo di guidatore.",
       ]}
-      //immagini
+      // Immagini
       galleryImages={[
-        { src: LogoBando1, alt: 'Logo RUNTS 1' },
-        { src: LogoBando2, alt: 'Logo RUNTS 2' },
-        { src: LogoBando3, alt: 'Logo RUNTS 3' },
-        { src: LogoBando4, alt: 'Logo RUNTS 4' },
+        { src: LogoBando1, alt: 'Innovazione nel design' },
+        { src: LogoBando2, alt: 'Tecnologie avanzate' },
+        { src: LogoBando3, alt: 'Efficienza e sostenibilità' },
+        { src: LogoBando4, alt: 'Prestazioni e velocità' },
       ]}
 
-      sectionTitle="Il Nostro Percorso"
+      sectionTitle="Dove siamo arrivati oggi"
 
       sectionTexts={[
-        "La fase di sviluppo sperimentale, cofinanziata a seguito di aggiudicazione di bando in Regione Puglia, pone in evidenza rischi associati alle Famiglie, contesto formale.",
-        "Da qui nasce la storia di Urban Lab, un approccio multidimensionale che parte da una matrice psicodinamica per arrivare alla realtà virtuale. Scopri tutte le storie...",
+        "Dopo anni di ricerca e sviluppo, siamo leader nell'innovazione automobilistica, offrendo soluzioni che ridefiniscono il concetto di mobilità.",
+        "Dal design aerodinamico all'integrazione di software avanzati, il nostro impegno è rivolto a creare auto sempre più intelligenti e connesse.",
       ]}
 
       sectionImage={ImgPercorso}
@@ -50,7 +50,7 @@ const BrandingPage = () => {
       contactFormFields={[
         { name: 'FirstName', label: 'Nome', type: 'text', placeholder: 'Inserisci il tuo nome' },
         { name: 'SurName', label: 'Cognome', type: 'text', placeholder: 'Inserisci il tuo cognome' },
-        { name: 'email', label: 'Email', type: 'email', placeholder: 'Inserisci il tuo email' },
+        { name: 'email', label: 'Email', type: 'email', placeholder: 'Inserisci la tua email' },
         { name: 'phoneNumber', label: 'Telefono', type: 'tel', placeholder: 'Inserisci il tuo numero di telefono' },
         { name: 'message', label: 'Messaggio', type: 'textarea', placeholder: 'Scrivi il tuo messaggio', rows: 5 },
       ]}

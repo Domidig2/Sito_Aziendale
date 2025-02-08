@@ -1,1127 +1,328 @@
- [
+[
     {
         "id": 1,
-        "text": "Pensi al Cliente di una attività (di seguito solo “cliente”). Ritiene che voglia: (Scelga al massimo due risposte)",
+        "text": "Quando guidi, quale stile preferisci? (Scegli al massimo due risposte)",
         "type": "multiple",
         "maxAnswers": 2,
         "answers": [
             {
-                "text": "1. Risolvere il problema",
-                "cluster": "Machiavellico"
+                "text": "1. Veloce e sportivo, amo l'adrenalina",
+                "cluster": "Sportivo"
             },
             {
-                "text": "2. Ottenere una prestazione di qualità",
-                "cluster": "Anelante"
+                "text": "2. Confortevole e rilassato, preferisco viaggiare senza stress",
+                "cluster": "Comfort"
             },
             {
-                "text": "3. Essere ascoltato",
-                "cluster": ""
+                "text": "3. Sicuro e prudente, metto la sicurezza al primo posto",
+                "cluster": "Sicuro"
             },
             {
-                "text": "4. Acquisire competenze",
-                "cluster": ""
-            },
-            {
-                "text": "5. Essere conquistato",
-                "cluster": ""
-            },
-            {
-                "text": "6. Soddisfare i propri bisogni",
-                "cluster": ""
-            },
-            {
-                "text": "7. Affrontare la problematica",
-                "cluster": "Sedotto dal senso comune"
+                "text": "4. Dinamico e reattivo, mi piace avere il controllo totale",
+                "cluster": "Dinamico"
             }
         ]
     },
     {
         "id": 2,
-        "text": "Lo sviluppo di una attività professionale si basa principalmente su: (Scelga al massimo due risposte)",
+        "text": "Cosa cerchi in un'auto ideale? (Scegli al massimo due risposte)",
         "type": "multiple",
         "maxAnswers": 2,
         "answers": [
             {
-                "text": "1. Relazione con i clienti",
-                "cluster": "Seduttore"
+                "text": "1. Velocità e prestazioni elevate",
+                "cluster": "Performance"
             },
             {
-                "text": "2. Comunicazione e pubblicità",
-                "cluster": "Anelante"
+                "text": "2. Tecnologia e innovazione",
+                "cluster": "Tecnologico"
             },
             {
-                "text": "3. Efficacia gestionale",
-                "cluster": "Motivato motivante"
+                "text": "3. Affidabilità e durata nel tempo",
+                "cluster": "Affidabile"
             },
             {
-                "text": "4. Precisione delle norme/procedure",
-                "cluster": ""
-            },
-            {
-                "text": "5. Capacità di soddisfare le richieste dei clienti",
-                "cluster": ""
-            },
-            {
-                "text": "6. Comprensione delle esigenze dei clienti",
-                "cluster": ""
+                "text": "4. Design e stile unico",
+                "cluster": "Elegante"
             }
         ]
     },
     {
         "id": 3,
-        "text": "La critica da parte del cliente di una attività va affrontata: (una sola risposta)",
+        "text": "Qual è il tuo habitat di guida ideale? (Una sola risposta)",
         "type": "single",
         "maxAnswers": 1,
         "answers": [
             {
-                "text": "1. Attenendosi alle procedure",
-                "cluster": ""
+                "text": "1. Pista o strade tortuose, voglio il massimo divertimento",
+                "cluster": "Sportivo"
             },
             {
-                "text": "2. Adeguandosi alle richieste",
-                "cluster": "Machiavellico"
+                "text": "2. Città, mi serve agilità e comfort per il traffico",
+                "cluster": "Urbano"
             },
             {
-                "text": "3. Interpretandone le ragioni",
-                "cluster": "Sedotto dal senso comune"
+                "text": "3. Strade extraurbane e lunghi viaggi, adoro il panorama",
+                "cluster": "Viaggiatore"
             },
             {
-                "text": "4. Utilizzandola come occasione di miglioramento",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "5. Non so come comportarmi",
-                "cluster": ""
+                "text": "4. Fuoristrada e avventure, voglio esplorare senza limiti",
+                "cluster": "Offroad"
             }
         ]
     },
     {
         "id": 4,
-        "text": "In un’attività professionale serve principalmente: (Scelga al massimo due risposte)",
+        "text": "Come reagisci agli imprevisti mentre guidi? (Scegli al massimo due risposte)",
         "type": "multiple",
         "maxAnswers": 2,
         "answers": [
             {
-                "text": "1. Rispetto dei ruoli",
-                "cluster": "Co-costruttore"
+                "text": "1. Rimango calmo e analizzo la situazione",
+                "cluster": "Razionale"
             },
             {
-                "text": "2. Clima interno collaborativo",
-                "cluster": "Motivato motivante"
+                "text": "2. Reagisco rapidamente per trovare la soluzione migliore",
+                "cluster": "Dinamico"
             },
             {
-                "text": "3. Disponibilità verso il cliente",
-                "cluster": ""
+                "text": "3. Mi affido alla tecnologia dell’auto per aiutarmi",
+                "cluster": "Tecnologico"
             },
             {
-                "text": "4. Competenza di chi opera",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "5. Capacità di interpretare il contesto",
-                "cluster": ""
-            },
-            {
-                "text": "6. Disponibilità al sacrificio",
-                "cluster": ""
-            },
-            {
-                "text": "7. Rigore morale",
-                "cluster": ""
+                "text": "4. Preferisco evitare situazioni rischiose a priori",
+                "cluster": "Prudente"
             }
         ]
     },
     {
         "id": 5,
-        "text": "Immagini che il cliente esprima la propria insoddisfazione. Tale circostanza sarebbe una: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Se dovessi scegliere tra queste auto, quale preferiresti?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
             {
-                "text": "1. Frustrazione",
-                "cluster": ""
+                "text": "1. Supercar potente e aggressiva",
+                "cluster": "Sportivo"
             },
             {
-                "text": "2. Opportunità",
-                "cluster": "Motivato motivante"
+                "text": "2. SUV spazioso e confortevole",
+                "cluster": "Confortevole"
             },
             {
-                "text": "3. Qualcosa di cui non preoccuparsi",
-                "cluster": ""
+                "text": "3. Berlina tecnologica e innovativa",
+                "cluster": "Tecnologico"
             },
             {
-                "text": "4. Una scocciatura",
-                "cluster": ""
-            },
-            {
-                "text": "5. Ragione di vergogna",
-                "cluster": ""
-            },
-            {
-                "text": "6. Un evento da prevenire",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "7. Motivo di conflitto",
-                "cluster": ""
+                "text": "4. Auto elettrica, ecologica ed efficiente",
+                "cluster": "Sostenibile"
             }
         ]
     },
     {
         "id": 6,
-        "text": "Gli imprevisti rappresentano (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quanto è importante l'efficienza dei consumi per te?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Un’opportunità per migliorare le competenze tecniche",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "2. Un limite allo sviluppo del progetto",
-                "cluster": ""
-            },
-            {
-                "text": "3. La necessità di analizzare il contesto",
-                "cluster": ""
-            },
-            {
-                "text": "4. Un’occasione per ridefinire la propria azione",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "5. Un’incertezza sul da farsi",
-                "cluster": ""
-            },
-            {
-                "text": "6. Un impedimento al raggiungimento dei risultati",
-                "cluster": ""
-            }
+            {"text": "1. Fondamentale, voglio un'auto economica nei consumi", "cluster": "Sostenibile"},
+            {"text": "2. Importante, ma non la priorità", "cluster": "Bilanciato"},
+            {"text": "3. Non mi interessa molto, preferisco la potenza", "cluster": "Sportivo"},
+            {"text": "4. Guardo solo le prestazioni, non i consumi", "cluster": "Performance"}
         ]
     },
     {
         "id": 7,
-        "text": "Le situazioni nuove vanno affrontate (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale colore preferisci per la tua auto?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Riformulando le richieste del cliente",
-                "cluster": ""
-            },
-            {
-                "text": "2. Utilizzando conoscenze consolidate",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "3. Attraverso innovazioni tecnologiche",
-                "cluster": ""
-            },
-            {
-                "text": "4. Navigando nell’incertezza",
-                "cluster": ""
-            },
-            {
-                "text": "5. Non perdendo di vista il risultato",
-                "cluster": ""
-            },
-            {
-                "text": "6. Rimanendo saldi ai propri principi",
-                "cluster": ""
-            }
+            {"text": "1. Rosso acceso, per un look sportivo", "cluster": "Sportivo"},
+            {"text": "2. Nero elegante, per un tocco di classe", "cluster": "Elegante"},
+            {"text": "3. Bianco o argento, per un look moderno", "cluster": "Tecnologico"},
+            {"text": "4. Verde o blu, per qualcosa di unico", "cluster": "Personalizzato"}
         ]
     },
     {
         "id": 8,
-        "text": "Le procedure di lavoro sono utili se (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale aspetto dell'auto ti colpisce di più al primo sguardo?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Sono chiare, definite e non modificabili",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "2. Si adattano alle situazioni",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Sono condivise con i clienti beneficiari",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "4. Coprono in maniera esaustiva la gamma di possibilità",
-                "cluster": ""
-            },
-            {
-                "text": "5. Eliminano punti di vista differenti",
-                "cluster": ""
-            },
-            {
-                "text": "6. Sono discusse con gli interlocutori",
-                "cluster": "Sedotto dal senso comune"
-            }
+            {"text": "1. Il design sportivo e aggressivo", "cluster": "Sportivo"},
+            {"text": "2. La cura dei dettagli e l'eleganza", "cluster": "Elegante"},
+            {"text": "3. La presenza di tecnologie avanzate", "cluster": "Tecnologico"},
+            {"text": "4. La sensazione di robustezza e sicurezza", "cluster": "Sicuro"}
         ]
     },
     {
         "id": 9,
-        "text": "La relazione con il cliente è: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Cosa preferisci durante un lungo viaggio?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Collaborazione",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "2. Rispetto",
-                "cluster": ""
-            },
-            {
-                "text": "3. Seduzione",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "4. Conquista",
-                "cluster": ""
-            },
-            {
-                "text": "5. Ammirazione",
-                "cluster": ""
-            },
-            {
-                "text": "6. Progettualità",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "7. Procedura",
-                "cluster": ""
-            }
+            {"text": "1. Guidare velocemente per arrivare prima", "cluster": "Sportivo"},
+            {"text": "2. Godermi il panorama e il comfort dell'auto", "cluster": "Comfort"},
+            {"text": "3. Ascoltare musica o podcast in totale relax", "cluster": "Confortevole"},
+            {"text": "4. Esplorare strade nuove e avventurose", "cluster": "Offroad"}
         ]
     },
     {
         "id": 10,
-        "text": "La qualità va perseguita: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Rendendo efficiente l’organizzazione",
-                "cluster": ""
-            },
-            {
-                "text": "2. Adottando partnership strategiche",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Acquisendo credibilità",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "4. Garantendo assistenza",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "5. Massimizzando la competenza",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "6. Garantendosi solidità finanziaria",
-                "cluster": ""
-            },
-            {
-                "text": "7. Essendo plausibile",
-                "cluster": "Sedotto dal senso comune"
-            }
-        ]
-    },
-    {
-        "id": 11.1,
-        "text": "Nel lavoro il cliente va considerato:",
-        "type": "scale",
+        "text": "Quanto spesso utilizzi sistemi di assistenza alla guida?",
+        "type": "single",
         "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Un ottimizzatore",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "2. Un intermediario",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "3. Una risorsa",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "4. Un creativo",
-                "cluster": ""
-            },
-            {
-                "text": "5. Un tecnico",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "6. Un partner",
-                "cluster": "Motivato motivante"
-            }
+            {"text": "1. Sempre, mi fido della tecnologia", "cluster": "Tecnologico"},
+            {"text": "2. Solo in situazioni di traffico intenso", "cluster": "Urbano"},
+            {"text": "3. Raramente, preferisco il controllo manuale", "cluster": "Dinamico"},
+            {"text": "4. Mai, mi piace avere il pieno controllo", "cluster": "Sportivo"}
         ]
     },
     {
-        "id": 11.2,
-        "text": "Il cliente mi vede come:",
-        "type": "scale",
+        "id": 11,
+        "text": "Quale caratteristica tecnologica non può mancare nella tua auto?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            { "text": "Esperto", "cluster": "Motivato motivante" },
-            { "text": "Consulente", "cluster": "Anelante" },
-            { "text": "Minaccia", "cluster": "" },
-            { "text": "Controllore", "cluster": "" },
-            { "text": "Parte del meccanismo", "cluster": "Gregario" },
-            { "text": "Controparte", "cluster": "" },
-            { "text": "Esecutore", "cluster": "" },
-            { "text": "Amico", "cluster": "" }
+            {"text": "1. Sistema di navigazione avanzato", "cluster": "Tecnologico"},
+            {"text": "2. Schermi touchscreen e connettività", "cluster": "Moderno"},
+            {"text": "3. Sensori di parcheggio e telecamere", "cluster": "Prudente"},
+            {"text": "4. Modalità di guida sportiva o personalizzata", "cluster": "Sportivo"}
         ]
     },
     {
         "id": 12,
-        "text": "Per rendere competitiva una attività serve: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Cosa pensi della guida autonoma?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Ottimizzare tempi e costi",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "2. Aderire alle richieste del cliente",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "3. Plasmare le richieste del cliente in ragione dei vincoli ed obiettivi perseguiti",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "4. Investire nelle competenze relazionali del personale",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "5. Trasformare i clienti in partner",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "6. Potenziare le risorse tecnologiche",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "7. Investire nella formazione tecnica del personale",
-                "cluster": "Motivato motivante"
-            }
+            {"text": "1. È il futuro, non vedo l'ora di provarla", "cluster": "Tecnologico"},
+            {"text": "2. È utile, ma preferisco guidare io", "cluster": "Bilanciato"},
+            {"text": "3. Non mi fido, preferisco il controllo manuale", "cluster": "Dinamico"},
+            {"text": "4. La trovo noiosa, amo guidare", "cluster": "Sportivo"}
         ]
     },
     {
         "id": 13,
-        "text": "Per raggiungere i propri risultati è necessario: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale tipo di strada preferisci percorrere?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Avere chiari gli obiettivi",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "2. Coinvolgere gli attori del territorio",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Perseguire standard di eccellenza",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "4. Analizzare i bisogni del contesto",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "5. Far parte di gruppi di potere",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "6. Disporre di procedure consolidate",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "7. Perseverare indipendentemente dai disturbi esterni",
-                "cluster": "Seduttore"
-            }
+            {"text": "1. Strade tortuose e piene di curve", "cluster": "Sportivo"},
+            {"text": "2. Autostrade veloci e scorrevoli", "cluster": "Viaggiatore"},
+            {"text": "3. Strade cittadine con traffico", "cluster": "Urbano"},
+            {"text": "4. Sentieri sterrati e fuoristrada", "cluster": "Offroad"}
         ]
     },
     {
         "id": 14,
-        "text": "Per sviluppare un’idea imprenditoriale è necessario: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quanto è importante per te il suono del motore?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Costruire rete con il territorio",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "2. Trasformare i limiti in opportunità",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "3. Disporre di aiuti pubblici",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "4. Lamentarsi a chi di dovere delle difficoltà",
-                "cluster": ""
-            },
-            {
-                "text": "5. Essere supportati dal territorio",
-                "cluster": ""
-            },
-            {
-                "text": "6. Perseguire la propria idea",
-                "cluster": ""
-            }
+            {"text": "1. Fondamentale, adoro un motore che ruggisce", "cluster": "Sportivo"},
+            {"text": "2. Mi piace, ma non è una priorità", "cluster": "Bilanciato"},
+            {"text": "3. Preferisco un motore silenzioso ed efficiente", "cluster": "Sostenibile"},
+            {"text": "4. Non mi interessa, contano altre cose", "cluster": "Tecnologico"}
         ]
     },
     {
         "id": 15,
-        "text": "Un’attività di successo deve: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Cosa fai mentre sei in coda nel traffico?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Conquistare la stima del cliente",
-                "cluster": ""
-            },
-            {
-                "text": "2. Ridurre i costi",
-                "cluster": ""
-            },
-            {
-                "text": "3. Sviluppare strategie di integrazione tra diversi settori",
-                "cluster": ""
-            },
-            {
-                "text": "4. Puntare sull’innovazione tecnologica",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "5. Investire sulla formazione del personale",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "6. Coinvolgere il territorio",
-                "cluster": ""
-            }
+            {"text": "1. Ascolto musica o podcast", "cluster": "Confortevole"},
+            {"text": "2. Pianifico il percorso migliore", "cluster": "Razionale"},
+            {"text": "3. Guardo il paesaggio o rilasso la mente", "cluster": "Comfort"},
+            {"text": "4. Mi innervosisco e cerco una via alternativa", "cluster": "Dinamico"}
         ]
     },
     {
         "id": 16,
-        "text": "Quali valori, tra quelli elencati, riconosce come maggiormente qualificanti lo sviluppo di una attività: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale tipo di guida ti rappresenta di più?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Competenza",
-                "cluster": ""
-            },
-            {
-                "text": "2. Gratificazione",
-                "cluster": ""
-            },
-            {
-                "text": "3. Sicurezza",
-                "cluster": ""
-            },
-            {
-                "text": "4. Crescita",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "5. Prestigio",
-                "cluster": ""
-            },
-            {
-                "text": "6. Affidabilità",
-                "cluster": ""
-            },
-            {
-                "text": "7. Verificabilità",
-                "cluster": ""
-            },
-            {
-                "text": "8. Precisione",
-                "cluster": ""
-            },
-            {
-                "text": "9. Progettualità",
-                "cluster": ""
-            },
-            {
-                "text": "10. Responsabilità sociale",
-                "cluster": ""
-            }
+            {"text": "1. Guida aggressiva e sportiva", "cluster": "Sportivo"},
+            {"text": "2. Guida rilassata e sicura", "cluster": "Sicuro"},
+            {"text": "3. Guida attenta e razionale", "cluster": "Razionale"},
+            {"text": "4. Guida avventurosa e fuori dagli schemi", "cluster": "Offroad"}
         ]
     },
     {
         "id": 17,
-        "text": "La soddisfazione dipende da: (Scelga al massimo due risposte)",
+        "text": "Cosa cerchi in un'auto usata?",
         "type": "multiple",
         "maxAnswers": 2,
         "answers": [
-            {
-                "text": "1. Riconoscimento della competenza",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "2. Soddisfazione del cliente",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "3. Guadagno",
-                "cluster": ""
-            },
-            {
-                "text": "4. Riconoscibilità del risultato ottenuto",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "5. Visibilità pubblica",
-                "cluster": ""
-            },
-            {
-                "text": "6. Esecuzione del compito",
-                "cluster": ""
-            },
-            {
-                "text": "7. Identificazione del risultato",
-                "cluster": "Co-costruttore"
-            }
+            {"text": "1. Prestazioni elevate e motore potente", "cluster": "Sportivo"},
+            {"text": "2. Affidabilità e basso chilometraggio", "cluster": "Affidabile"},
+            {"text": "3. Tecnologie avanzate e aggiornate", "cluster": "Tecnologico"},
+            {"text": "4. Design accattivante e ben mantenuto", "cluster": "Elegante"}
         ]
     },
     {
         "id": 18,
-        "text": "La crisi attuale la si può superare se si investe su: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale tipo di carburante preferisci?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Consolidamento della relazione con il cliente",
-                "cluster": ""
-            },
-            {
-                "text": "2. Innovazione tecnologica",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "3. Apertura di nuovi mercati",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "4. Adeguamento al nuovo contesto sociale",
-                "cluster": ""
-            },
-            {
-                "text": "5. Progettualità di medio termine",
-                "cluster": ""
-            },
-            {
-                "text": "6. Analisi dei bisogni del territorio",
-                "cluster": "Co-costruttore"
-            }
+            {"text": "1. Benzina, per prestazioni migliori", "cluster": "Sportivo"},
+            {"text": "2. Diesel, per consumi ridotti", "cluster": "Sostenibile"},
+            {"text": "3. Elettrico, per l'ecosostenibilità", "cluster": "Sostenibile"},
+            {"text": "4. Ibrido, per un buon compromesso", "cluster": "Bilanciato"}
         ]
     },
     {
         "id": 19,
-        "text": "Un’azienda è come: (Scelga al massimo due risposte)",
+        "text": "Cosa ti fa innamorare di un'auto?",
         "type": "multiple",
         "maxAnswers": 2,
         "answers": [
-            {
-                "text": "1. Una caserma",
-                "cluster": ""
-            },
-            {
-                "text": "2. La mia seconda casa",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "3. Una comunità di stati indipendenti",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "4. Un caos",
-                "cluster": ""
-            },
-            {
-                "text": "5. Un team",
-                "cluster": ""
-            },
-            {
-                "text": "6. Una compagnia di ventura",
-                "cluster": ""
-            }
+            {"text": "1. Il design e le linee aggressive", "cluster": "Sportivo"},
+            {"text": "2. La tecnologia e le funzionalità avanzate", "cluster": "Tecnologico"},
+            {"text": "3. La comodità e lo spazio interno", "cluster": "Comfort"},
+            {"text": "4. La storia e il prestigio del marchio", "cluster": "Elegante"}
         ]
     },
     {
         "id": 20,
-        "text": "La capacità di comunicare è: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Quale accessorio non può mancare nella tua auto?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Una dote innata",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "2. Affermare il proprio punto di vista",
-                "cluster": ""
-            },
-            {
-                "text": "3. La capacità di persuadere e convincere gli altri",
-                "cluster": ""
-            },
-            {
-                "text": "4. Saper ascoltare attentamente",
-                "cluster": ""
-            },
-            {
-                "text": "5. Esprimere con chiarezza il proprio pensiero",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "6. Trovare un punto di incontro con l’altro",
-                "cluster": ""
-            },
-            {
-                "text": "7. Comprendere i punti di vista altrui",
-                "cluster": ""
-            }
+            {"text": "1. Volante sportivo e sedili avvolgenti", "cluster": "Sportivo"},
+            {"text": "2. Sistema audio di alta qualità", "cluster": "Confortevole"},
+            {"text": "3. Schermi touchscreen e connettività", "cluster": "Tecnologico"},
+            {"text": "4. Portapacchi o attrezzatura da viaggio", "cluster": "Viaggiatore"}
         ]
     },
     {
         "id": 21,
-        "text": "Collaborare in un gruppo è: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
+        "text": "Cosa pensi delle auto elettriche?",
+        "type": "single",
+        "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Soddisfare i bisogni propri",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "2. Soddisfare i bisogni dell’altro",
-                "cluster": ""
-            },
-            {
-                "text": "3. Reciproco influenzamento di opinioni",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "4. Pervenire a risultati prefissati",
-                "cluster": ""
-            },
-            {
-                "text": "5. Negoziazione dei conflitti",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "6. Integrare in un progetto comune i differenti punti di vista",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "7. Far convergere le opinioni",
-                "cluster": "Seduttore"
-            }
+            {"text": "1. Sono il futuro e le adoro", "cluster": "Sostenibile"},
+            {"text": "2. Sono interessanti, ma preferisco i motori tradizionali", "cluster": "Bilanciato"},
+            {"text": "3. Non mi convincono, preferisco la potenza di un motore a combustione", "cluster": "Sportivo"},
+            {"text": "4. Le uso solo per comodità in città", "cluster": "Urbano"}
         ]
     },
     {
         "id": 22,
-        "text": "Quali competenze reputi più importanti per sviluppare impresa: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Capacità di problem solving",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "2. Creatività",
-                "cluster": ""
-            },
-            {
-                "text": "3. Comunicazione",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "4. Collaborazione",
-                "cluster": ""
-            },
-            {
-                "text": "5. Curiosità",
-                "cluster": ""
-            },
-            {
-                "text": "6. Spirito di iniziativa",
-                "cluster": ""
-            },
-            {
-                "text": "7. Determinazione",
-                "cluster": ""
-            },
-            {
-                "text": "8. Adattabilità",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "9. Leadership",
-                "cluster": ""
-            },
-            {
-                "text": "10. Consapevolezza sociale e culturale",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "text": "Porre una domanda è: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Dimostrazione di incompetenza",
-                "cluster": ""
-            },
-            {
-                "text": "2. Dimostrazione delle proprie competenze",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "3. Desiderio di conoscere",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "4. Consapevolezza dei propri limiti",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "5. Esplorazione di nuove possibilità",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 24,
-        "text": "Per lavorare in gruppo è necessario saper: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Dirigere gli altri",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "2. Guidare e ispirare gli altri",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Trasferire conoscenze agli altri",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "4. Costruire insieme agli altri una decisione",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "5. Delegare compiti e responsabilità agli altri",
-                "cluster": ""
-            },
-            {
-                "text": "6. Accentrare compiti e responsabilità",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "text": "Per interagire con gli altri è indispensabile: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Seguire la maggioranza",
-                "cluster": ""
-            },
-            {
-                "text": "2. Costruire una prospettiva condivisa",
-                "cluster": ""
-            },
-            {
-                "text": "3. Trovare equilibrio tra conservazione e innovazione",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "4. Avere principi solidi ed immodificabili",
-                "cluster": ""
-            },
-            {
-                "text": "5. Orientarsi ai risultati",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "6. Rispettare la diversità",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 26,
-        "text": "Per qualità lei intende: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Un efficace ed efficiente rapporto tra obiettivi e risultati",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "2. Il successo del progetto per i clienti",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Il perseguimento di standard",
-                "cluster": ""
-            },
-            {
-                "text": "4. L’equilibrio tra obiettivi e impatto sul territorio",
-                "cluster": ""
-            },
-            {
-                "text": "5. La soddisfazione del bisogno dell’utenza",
-                "cluster": ""
-            },
-            {
-                "text": "6. L’adesione alle procedure",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 27,
-        "text": "Progettazione e valutazione con il cliente sono una forma di: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Manipolazione",
-                "cluster": ""
-            },
-            {
-                "text": "2. Garanzia di successo",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "3. Consultazione",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "4. Collaborazione",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "5. Condivisione",
-                "cluster": ""
-            },
-            {
-                "text": "6. Controllo",
-                "cluster": ""
-            },
-            {
-                "text": "7. Cooperazione",
-                "cluster": "Motivato motivante"
-            }
-        ]
-    },
-    {
-        "id": 28,
-        "text": "La visione aziendale dipende da: (Scelga al massimo due risposte)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Il leader",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "2. Il gruppo di lavoro",
-                "cluster": "Gregario"
-            },
-            {
-                "text": "3. Il contesto territoriale",
-                "cluster": ""
-            },
-            {
-                "text": "4. I bisogni dei clienti",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "5. Le condizioni politiche",
-                "cluster": ""
-            },
-            {
-                "text": "6. L’idea di successo",
-                "cluster": "Sedotto dal senso comune"
-            }
-        ]
-    },
-    {
-        "id": 29,
-        "text": "Oggi il lavoro si trova: (Scelga al massimo due risposte)",
+        "text": "Quale marchio automobilistico ti affascina di più?",
         "type": "single",
         "maxAnswers": 1,
         "answers": [
-            {
-                "text": "1. Grazie ad una raccomandazione",
-                "cluster": ""
-            },
-            {
-                "text": "2. Attraverso lo sviluppo di competenze adeguate",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "3. Andando all’estero",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "4. Con un concorso",
-                "cluster": ""
-            },
-            {
-                "text": "5. Grazie alla formazione ricevuta",
-                "cluster": ""
-            },
-            {
-                "text": "6. Continuando a studiare",
-                "cluster": ""
-            },
-            {
-                "text": "7. Con l’aiuto della famiglia",
-                "cluster": ""
-            },
-            {
-                "text": "8. Per puro caso",
-                "cluster": ""
-            },
-            {
-                "text": "9. Realizzando un’idea innovativa",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "10. Grazie alle relazioni costruite nel tempo",
-                "cluster": "Gregario"
-            }
-        ]
-    },
-    {
-        "id": 30,
-        "text": "Di seguito riportiamo alcuni fattori che intervengono nel successo scolastico. Secondo lei, quanto ciascuno di essi è rilevante?",
-        "type": "scale",
-        "answers": [
-            { "text": "La personalità dello studente", "cluster": "" },
-            { "text": "Le conoscenze accumulate", "cluster": "Seduttore" },
-            { "text": "L’intelligenza dello studente", "cluster": "" },
-            { "text": "La relazione tra docente e studente", "cluster": "Gregario" },
-            { "text": "I modelli culturali del territorio", "cluster": "Sedotto dal senso comune" },
-            { "text": "Le aspettative sociali circa il valore della formazione", "cluster": "Co-costruttore" },
-            { "text": "I sistemi di valutazione adottati", "cluster": "" }
-        ]
-    },
-    {
-        "id": 31,
-        "text": "Lavorare è: (Scelga tra le seguenti modalità le due che sente più vicine)",
-        "type": "multiple",
-        "maxAnswers": 2,
-        "answers": [
-            {
-                "text": "1. Sicurezza",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "2. Successo",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "3. Frustrazione",
-                "cluster": ""
-            },
-            {
-                "text": "4. Necessità",
-                "cluster": ""
-            },
-            {
-                "text": "5. Gratificazione",
-                "cluster": "Motivato motivante"
-            },
-            {
-                "text": "6. Opportunità",
-                "cluster": ""
-            }
-        ]
-    },
-    {
-        "id": 32,
-        "text": "Per ciascuna delle seguenti affermazioni indica quanto si sente d’accordo:",
-        "type": "scale",
-        "subType": "agreement",
-        "answers": [
-            {
-                "text": "Gli altri sono una fonte di arricchimento culturale",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "Sarà sempre più difficile trovare persone su cui fare affidamento",
-                "cluster": "Sedotto dal senso comune"
-            },
-            {
-                "text": "A volte è necessario fare qualche strappo alle regole per aiutare le persone a noi vicine",
-                "cluster": "Seduttore"
-            },
-            {
-                "text": "Gli adulti non sono capaci di capire i giovani",
-                "cluster": "Gregario"
-            }
-        ]
-    },
-    {
-        "id": 33,
-        "text": "Secondo lei, quanto è importante per l’avvenire:",
-        "type": "scale",
-        "subType": "future",
-        "answers": [
-            {
-                "text": "Impegnarsi nello studio",
-                "cluster": "Anelante"
-            },
-            {
-                "text": "Capire il mondo",
-                "cluster": "Co-costruttore"
-            },
-            {
-                "text": "Allearsi con i più forti",
-                "cluster": "Machiavellico"
-            },
-            {
-                "text": "Seguire la moda",
-                "cluster": ""
-            },
-            {
-                "text": "Non avere troppi scrupoli",
-                "cluster": ""
-            }
+            {"text": "1. Marchi sportivi come Ferrari o Porsche", "cluster": "Sportivo"},
+            {"text": "2. Marchi di lusso come Mercedes o BMW", "cluster": "Elegante"},
+            {"text": "3. Marchi tecnologici come Tesla", "cluster": "Tecnologico"},
+            {"text": "4. Marchi affidabili come Toyota o Honda", "cluster": "Affidabile"}
         ]
     }
+
 ]
+

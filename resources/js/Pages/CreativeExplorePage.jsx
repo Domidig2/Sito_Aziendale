@@ -2,10 +2,10 @@ import React from 'react';
 import GenericPageLayout from '@/Layouts/GenericPageLayout';
 
 // Immagini
-import TizioLab from '@/assets/placeholders/Placeholder1.jpg';
-import TizioRover from '@/assets/placeholders/Placeholder2.jpg';
-import TizioStreet from '@/assets/placeholders/Placeholder3.jpg';
-import TizioStars from '@/assets/placeholders/Placeholder4.jpg';
+import TizioLab from '@/assets/auto1.jpg';
+import TizioRover from '@/assets/auto2.jpg';
+import TizioStreet from '@/assets/auto3.jpg';
+import TizioStars from '@/assets/auto4.jpg';
 import TizioSad from '@/assets/Immagine 24-10-24 - 15.26 (1).jpg';
 import TizioHappy from '@/assets/Immagine 24-10-24 - 15.26.jpg';
 
@@ -13,25 +13,25 @@ const CreativeExplorePage = () => {
   return (
     <GenericPageLayout
       // Titolo di introduzione
-      introTitle="Se le idee rappresentano una novità, la modalità per averne una è l’analisi dati."
+      introTitle="Dall'innovazione alla strada: l'evoluzione dell'industria automobilistica"
       // Testi introduttivi
       introTexts={[
-        "Lo sviluppo del capitale umano ingenera reazioni emotive soprattutto se si pensa ad innovazioni di prodotto e non di processo, quindi Persona nuova e non crescita.",
-        "Lo sa bene Tizio che dalla Comunità Digitale è passata a quella Creativa.",
+        "Le automobili sono molto più di semplici mezzi di trasporto: sono un mix perfetto di ingegneria, design e tecnologia avanzata.",
+        "Dai primi modelli a combustione fino alle più recenti auto elettriche, l'automotive è un settore in continua trasformazione.",
       ]}
       // Galleria di immagini
       galleryImages={[
-        { src: TizioLab, alt: 'Tizio in Urban Lab' },
-        { src: TizioRover, alt: 'Tizio in Range Rover' },
-        { src: TizioStreet, alt: 'Tizio in Urban Street' },
-        { src: TizioStars, alt: 'Tizio in Stars' },
+        { src: TizioLab, alt: 'Progettazione e innovazione' },
+        { src: TizioRover, alt: 'SUV moderni e spaziosi' },
+        { src: TizioStreet, alt: 'Auto sportive e dinamiche' },
+        { src: TizioStars, alt: 'Tecnologie di guida autonoma' },
       ]}
       // Titolo della sezione
-      sectionTitle="Sono Tizio ed appartengo alla Comunità Creativa, per cambiare devo collaudare."
+      sectionTitle="Le auto del futuro: tra prestazioni, efficienza e sostenibilità"
       // Testi della sezione
       sectionTexts={[
-        "Imparo ad analizzare dati per crescere professionalmente con gli altri Consulenti.",
-        "Solo 12 ore per analizzarli con alcuni strumenti di testing: Google Sheets, Business Intelligence e Tableau.",
+        "Le nuove tecnologie stanno rivoluzionando il settore: guida autonoma, connettività avanzata e motori sempre più efficienti.",
+        "Dal motorsport alle city car, ogni veicolo è progettato per offrire un'esperienza di guida unica e personalizzata.",
       ]}
       // Immagine della sezione con hover
       sectionImage={TizioSad}

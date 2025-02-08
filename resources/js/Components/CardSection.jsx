@@ -8,28 +8,28 @@ import img3 from '@/assets/placeholders/Placeholder3.jpg';
 
 const cards = [
   {
-    name: 'Maria',
-    description: 'DIGITALE',
-    detail: "Cambia la tua vita in un click! Benvenuto nella Comunità Digitale, crea un sito web in sole 5 ore. Smart Working? Accedi al corso gratuito e vola ora a Dublino con Siri.",
+    name: 'Salvatore',
+    description: 'SICUREZZA STRADALE',
+    detail: "Ogni giorno troppe vite vengono spezzate sulla strada. Scopri come il tuo contributo può fare la differenza, aiutando le vittime e prevenendo incidenti.",
     image: img1,
-    label: 'Accedi al Mondo Digitale!',
-    link: '/explore-digital',
+    label: 'Accedi alla sicurezza stradale!',
+    link: '/stradale-sicurezza',
   },
   {
-    name: 'Domenico',
-    description: 'CREATIVA',
-    detail: "Condividi le tue energie nella Comunità Creativa: scopri i corsi gratuiti per Data Analyst anche nel settore Green Energy. Chiedi come gestire ogni rischio ad Alexa.",
+    name: 'Giulia',
+    description: 'PREVENZIONE INCIDENTI',
+    detail: "Aiuta a fermare la violenza sulle strade: unisciti alla lotta contro gli incidenti stradali, con corsi di educazione e prevenzione. La tua donazione può salvare vite.",
     image: img2,
-    label: 'Accedi al Mondo Creativo!',
-    link: '/explore-creative',
+    label: 'Fai la differenza ora!',
+    link: '/prevenzione-incidente',
   },
   {
-    name: 'Alexa',
-    description: 'INCLUSIVA',
-    detail: "La tua storia nella Comunità Inclusiva: Professionista in Sole 24 Ore? Smart Box. Startup? Valuta il tuo Mindset e quello del tuo Team. Vivi esperienze Smart&Start.",
+    name: 'Marco',
+    description: 'SOSTEGNO VITTIME',
+    detail: "Le vittime degli incidenti stradali meritano il nostro aiuto. Contribuisci a fornire supporto alle famiglie colpite e a garantire cure adeguate ai sopravvissuti.",
     image: img3,
-    label: 'Accedi al Mondo Inclusivo!',
-    link: '/explore-inclusiva',
+    label: 'Aiuta le vittime ora!',
+    link: '/sostegno-vittime',
   },
 ];
 

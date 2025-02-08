@@ -12,23 +12,23 @@ const MatchingPage = () => {
   return (
     <GenericPageLayout
       // Titolo
-      introTitle="La storia di Maria:"
+      introTitle="L'evoluzione dell'industria automobilistica:"
       // Testi
       introTexts={[
-        "Ciao sono Maria e ho già avuto l'opportunitò di andare all'estero, di volare a Dublino per scoprire che avevo solo una necessità: cambiare la mia vita.",
-        "Tornata in Italia ho esplorato diversi approcci in Urban Lab...",
+        "Dalle prime vetture a vapore alle supercar di oggi, il settore automobilistico ha attraversato un'evoluzione straordinaria.",
+        "Tecnologie innovative, efficienza nei consumi e design futuristico stanno ridefinendo il modo in cui ci spostiamo ogni giorno.",
       ]}
       // Galleria di immagini
       galleryImages={[
-        { src: AperideasLogo, alt: 'Giocare in Aperideas' },
-        { src: UrbanStreetLogo, alt: 'Allenarmi in Urban Street' },
-        { src: BeecolabsLogo, alt: 'Imparare in Beecolabs' },
+        { src: AperideasLogo, alt: 'Auto sportive e prestazionali' },
+        { src: UrbanStreetLogo, alt: 'SUV spaziosi e versatili' },
+        { src: BeecolabsLogo, alt: 'Veicoli elettrici e sostenibili' },
       ]}
       // Testi della sezione
-      sectionTitle="Poi finalmente il mio valore, decisione e rapidità, sono un DevSecOps."
+      sectionTitle="Il futuro della mobilità è già qui!"
       sectionTexts={[
-        "Sviluppo ed effettuo operazioni velocemente, devo solo garantire operativamente la sicurezza.",
-        "In altre parole sviluppo landing page, garantisco la sicurezza di siti web ed effettuo operazioni in rete, cioè sono una Programmatrice specializzata in Cybersecurity. Se anche tu vuoi lavorare in Smart Working puoi diventare uno Sviluppatore, magari specializzato in Coding AI. Compila subito il contact form, parti dal corso gratuito. Se invece vuoi conoscere gli altri Smart Worker prosegui ad esplorare la pagina successiva.",
+        "Le auto moderne non sono solo mezzi di trasporto, ma veri e propri concentrati di tecnologia, sicurezza e connettività.",
+        "Dalla guida autonoma ai motori elettrici, ogni innovazione punta a migliorare l'esperienza di guida e ridurre l'impatto ambientale.",
       ]}
       // Immagini con hover
       sectionImage={ImgPercorsoDefault}

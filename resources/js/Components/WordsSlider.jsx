@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../assets/css/WordsSlider.css';
 // 3 parole che girano nella welcome
-const words = ['digitale', 'creativa', 'inclusiva'];
+const words = ['sportivo', 'familiare', 'ecologico'];
 
 const WordsSlider = ({ currentWordIndex, onWordChange }) => {
   const [currentText, setCurrentText] = useState('');

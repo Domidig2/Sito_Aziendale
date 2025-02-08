@@ -11,25 +11,25 @@ const UniversityPage = () => {
   return (
     <GenericPageLayout
       // Titolo
-      introTitle="Se le idee nascono dai propri bisogni, allora abbiamo delle soluzioni, scegli la tua:"
+      introTitle="Scopri che auto fa per te! Rispondi al nostro test e trova il veicolo perfetto per il tuo stile di guida."
       // Testi
       introTexts={[
-        "Bisogni diversi? Emozionali e sociali, funzionali e contestuali? Sei davvero molto malato ma abbiamo la cura adatta a te, si chiama sviluppo del capitale umano.",
-        "Tanti interessi? Famiglia e parenti, casa e lavoro? Anche tu sei molto malata ma la cura è sempre la stessa, sviluppo del capitale umano, magari anche il tuo.",
-        "La cura è sempre la stessa, una tabella di marcia ed un’anticipazione…",
+        "Preferisci l'adrenalina di una supercar o il comfort di un SUV? Ogni guidatore ha un'auto ideale, scopri quale è la tua!",
+        "Tecnologia avanzata, prestazioni elevate o efficienza nei consumi? Rispondi alle domande e scopri quale veicolo rispecchia la tua personalità.",
+        "Non importa se guidi per passione o per necessità, il nostro test ti aiuterà a trovare l'auto perfetta per le tue esigenze.",
       ]}
       // Galleria di immagini
       galleryImages={[
-        { src: SanRaffaeleLogo, alt: 'Affidati a San Raffaele' },
-        { src: PegasoLogo, alt: 'Vola sulle ali di Pegaso' },
-        { src: MercatorumLogo, alt: 'Che ne dici di Mercatorum' },
+        { src: SanRaffaeleLogo, alt: 'Sportiva e adrenalinica' },
+        { src: PegasoLogo, alt: 'Confortevole e spaziosa' },
+        { src: MercatorumLogo, alt: 'Efficiente e tecnologica' },
       ]}
       // Titolo sotto
-      sectionTitle="Scegli la tua area e parlane con i nostri Consulenti:"
+      sectionTitle="Rispondi alle domande e scopri il tuo match automobilistico!"
       // Testi sotto
       sectionTexts={[
-        "Sport e Benessere con Mimmo, Scuola ed Educazione con Porzia, Lavoro e Lingue con Alessandra e anche Maria.",
-        "Perché crescono le Università Digitali? Apriti alle nuove Smart City.",
+        "Sei più un amante della velocità o della guida sicura? Scopri quale veicolo rappresenta il tuo stile di guida.",
+        "Tecnologia, prestazioni, design... ogni scelta racconta qualcosa di te! Fai il test e trova l'auto perfetta.",
       ]}
       // Immagine hoverata o no
       sectionImage={ImgPercorso}

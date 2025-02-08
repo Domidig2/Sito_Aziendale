@@ -3,45 +3,55 @@ import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/FormSection.css';
-// Domande quiz mini della welcome
+
 const questions = [
-  {
-    id: 1,
-    text: 'Domanda 1: Il tuo stile di guida è..',
-    answers: [
-      ['A. Autonomo ed ', { bold: 'Indipendente' }],
-      ['B. Affronto i dubbi e ', { bold: 'gestisco il Rischio' }],
-      ['C. Esperto, viaggio ', { bold: 'insieme agli Altri' }],
-      ['D. Imparo attraverso ', { bold: 'nuove Esperienze' }]
-    ]
-  },
-  {
-    id: 2,
-    text: 'Domanda 2: Il tuo ambiente di lavoro è..',
-    answers: [
-      ['A. In ', { bold: 'Smart Working' }, ' voglio essere uno ', { bold: 'Smart Worker' }],
-      ['B. Una ', { bold: 'Smart City' }, ', potrei diventare ', { bold: 'Smart Citizen' }],
-      ['C. Uno ', { bold: 'Smart Office' }, ' devo attivare una mia ', { bold: 'Smart Card' }],
-      ['D. ', { bold: 'Smart&Start' }, ' per creare la mia ', { bold: 'Startup' }]
-    ]
-  },
-  {
-    id: 3,
-    text: 'Domanda 3: Da bambino preferivi giocare...',
-    answers: [
-      ['A. ai ', { bold: 'videogiochi' }, ' per sfidare gli altri'],
-      ['B. con i miei ', { bold: 'giochi' }, ' solo reali'],
-      ['C. a ', { bold: 'giochi da tavola' }, ' insieme agli altri'],
-      ['D. a ', { bold: 'nuovi giochi' }, ' creati da me']
-    ]
-  }
+    {
+        "id": 1,
+        "text": "Domanda 1: Il tuo stile di guida è...",
+        "answers": [
+          ["A. Veloce e ", { "bold": "sportivo" }],
+          ["B. Sicuro e ", { "bold": "prudente" }],
+          ["C. Confortevole e ", { "bold": "rilassato" }],
+          ["D. Avventuroso e ", { "bold": "fuoristrada" }]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Domanda 2: Cosa cerchi in un'auto?",
+        "answers": [
+          ["A. ", { "bold": "Prestazioni elevate" }, " e motore potente"],
+          ["B. ", { "bold": "Sicurezza" }, " e tecnologie avanzate"],
+          ["C. ", { "bold": "Comfort" }, " e spazio interno"],
+          ["D. ", { "bold": "Versatilità" }, " per ogni tipo di strada"]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Domanda 3: Quale tipo di strada preferisci?",
+        "answers": [
+          ["A. ", { "bold": "Strade tortuose" }, " per sfidare le curve"],
+          ["B. ", { "bold": "Autostrade" }, " per viaggi lunghi e sicuri"],
+          ["C. ", { "bold": "Città" }, " per muoverti agilmente nel traffico"],
+          ["D. ", { "bold": "Fuoristrada" }, " per esplorare nuovi sentieri"]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Domanda 4: Cosa ti piace di più in un'auto?",
+        "answers": [
+          ["A. Il ", { "bold": "design sportivo" }, " e aggressivo"],
+          ["B. Le ", { "bold": "tecnologie avanzate" }, " di assistenza alla guida"],
+          ["C. Il ", { "bold": "comfort interno" }, " e i materiali di qualità"],
+          ["D. La ", { "bold": "robustezza" }, " e la capacità off-road"]
+        ]
+      },
 ];
 
 const FormSection = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
   const [showWelcomeMessage, setShowWelcomeMessage] = useState(false);
-  const [community, setCommunity] = useState('');
+  const [resultMessage, setResultMessage] = useState('');
   const [showTooltip, setShowTooltip] = useState(false);
 
   const handleFinalStep = (answers) => {
@@ -59,44 +69,29 @@ const FormSection = () => {
     const majorityAnswers = Object.keys(answerCounts).filter((key) => answerCounts[key] === maxCount);
 
     if (majorityAnswers.length === 1) {
-      let communityName = '';
+      let message = '';
       switch (majorityAnswers[0]) {
         case 'A':
-          communityName = 'digitale';
-          highlightSection('card-1');
+          message = 'Sei un amante della velocità e delle emozioni forti! Il tuo stile di guida è decisamente sportivo.';
           break;
         case 'B':
-          communityName = 'creativa';
-          highlightSection('card-2');
+          message = 'Sicurezza prima di tutto! Ti piace sentirti protetto e scegliere le opzioni più sicure.';
           break;
         case 'C':
+          message = 'Il comfort e la serenità sono le tue priorità. Ti piace viaggiare senza stress.';
+          break;
         case 'D':
-          communityName = 'inclusiva';
-          highlightSection('card-3');
+          message = 'Un vero avventuriero! Ogni terreno è il tuo campo di gioco.';
           break;
         default:
-          highlightSection('image-slider-section');
+          message = 'Il tuo approccio è equilibrato e versatile! Perfetto per ogni situazione.';
       }
-      setCommunity(communityName);
+      setResultMessage(message);
       setShowWelcomeMessage(true);
     } else {
-      setCommunity('inclusiva');
-      highlightSection('image-slider-section');
+      setResultMessage('Il tuo approccio è equilibrato e versatile! Perfetto per ogni situazione.');
       setShowWelcomeMessage(true);
     }
-  };
-
-  const highlightSection = (sectionId) => {
-    setTimeout(() => {
-      const targetSection = document.getElementById(sectionId);
-      if (targetSection) {
-        targetSection.scrollIntoView({ behavior: 'smooth' });
-        targetSection.classList.add('highlight');
-        setTimeout(() => {
-          targetSection.classList.remove('highlight');
-        }, 3000);
-      }
-    }, 2500);
   };
 
   const handleAnswer = (answer) => {
@@ -143,10 +138,8 @@ const FormSection = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-center bg-gray-800 p-8 rounded-lg shadow-lg border border-primary-orange">
-            <h3 className="text-4xl font-bold text-primary-orange mb-4">Benvenuto nella tua comunità</h3>
-            <p className="text-2xl text-white">
-              Sei nella comunità <span className="capitalize text-primary-orange">{community}</span>!
-            </p>
+            <h3 className="text-4xl font-bold text-primary-orange mb-4">Risultato del tuo test!</h3>
+            <p className="text-2xl text-white">{resultMessage}</p>
           </div>
         </motion.div>
       )}
@@ -154,7 +147,7 @@ const FormSection = () => {
       {/* Titolo con Icona Informativa */}
       <div className="flex items-center mb-6 relative">
         <h2 className="text-5xl font-bold text-white text-center hover:text-primary-orange transition-all">
-          Scopri a che comunità appartieni!
+          Scopri il tuo stile di guida ideale!
         </h2>
         <div
           onMouseEnter={() => setShowTooltip(true)}
@@ -166,7 +159,7 @@ const FormSection = () => {
           {/* Tooltip */}
           {showTooltip && (
             <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-64 bg-gray-800 text-white text-sm p-3 rounded-lg shadow-lg border border-blue-500 z-50 text-center">
-              <p>Scopri la tua comunità senza impegno! È anonimo, gratis e senza registrazione. Promesso: nessuno spionaggio, solo divertimento!</p>
+              <p>Scopri il tuo stile di guida ideale in modo rapido e senza registrazione. Il risultato sarà unico per te!</p>
             </div>
           )}
         </div>

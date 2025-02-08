@@ -6,7 +6,7 @@ import ContactForm from '@/Components/ContactForm';
 import axios from 'axios';
 
 // Import delle immagini e logo
-import LogoMondoLavoro from '@/assets/images/logos/Logo argent-n bookmarks.jpg';
+import LogoMondoLavoro from '@/assets/images/logos/mondo-lavoro.png';
 
 const pageData = {
   title: "Esplora il Mondo del Lavoro",

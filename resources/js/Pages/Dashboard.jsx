@@ -13,7 +13,7 @@ export default function Dashboard() {
                 {/* Menu laterale */}
                 <aside className="w-64 bg-dark-gray text-white border-r border-gray-700">
                     <div className="p-6">
-                        <h1 className="text-2xl font-bold text-primary-orange">Urban Lab</h1>
+                        <h1 className="text-2xl font-bold text-primary-orange">Codenexus</h1>
                         <p className="text-sm text-gray-400 mt-2">Benvenuto nella tua area riservata</p>
                     </div>
                     <nav className="p-4 space-y-4">
@@ -27,7 +27,7 @@ export default function Dashboard() {
                             href="#"
                             className="block px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600"
                         >
-                            Area Mind SET
+                            Driving Challenge
                         </a>
                         <a
                             href="#"
@@ -50,7 +50,7 @@ export default function Dashboard() {
                         onClick={() => setShowTest(!showTest)}
                         className="px-6 py-3 bg-primary-orange text-white font-bold rounded-lg hover:bg-orange-600 transition"
                     >
-                        {showTest ? 'Nascondi il Test Mindset' : 'Compila il Test Mindset'}
+                        {showTest ? 'Nascondi Driving Challenge' : 'Compila Driving Challenge'}
                     </button>
 
                     {/* Test Mindset visibile solo se `showTest` è true */}

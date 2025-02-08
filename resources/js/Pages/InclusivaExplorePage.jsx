@@ -9,30 +9,30 @@ import EconomicSpecialistImage from '@/assets/placeholders/Placeholder5.jpg';
 
 const InclusivaExplorePage = () => {
   const introTexts = [
-    "Dai problemi della Comunità Digitale alle prospettive nella Comunità Creativa",
-    "Dai dati ai gruppi, ecco la rimodellazione in Sole 24 Ore: sostenibilità ambientale ed anche sociale, innovazione digitale e intelligenza artificiale, infine area manageriale.",
-    "Per innovare, anche i nostri Manager, abbiamo previsto percorsi di accelerazione ma anche Master universitari validi come crediti formativi per conseguire la laurea.",
-    "Per la sostenibilità abbiamo due diversi approcci: digitale in Sole 24 Ore, oppure…",
+    "Dalle prime automobili alle innovazioni del futuro, il settore automobilistico è in continua evoluzione.",
+    "Dai motori termici alle soluzioni elettriche e ibride: la sostenibilità sta cambiando il modo in cui guidiamo.",
+    "Tecnologia avanzata, sicurezza e prestazioni: le auto moderne sono più connesse e intelligenti che mai.",
+    "Dal design all'aerodinamica, ogni dettaglio conta nel creare l'auto perfetta per ogni tipo di guidatore.",
   ];
 
   const galleryImages = [
-    { src: AcademyImage, alt: "Academy Building Manager" },
-    { src: EnergyManagerImage, alt: "Energy Manager" },
-    { src: EnergySpecialistImage, alt: "Energy Specialist" },
-    { src: EconomicSpecialistImage, alt: "Economic Specialist" },
+    { src: AcademyImage, alt: "Auto sportive e adrenaliniche" },
+    { src: EnergyManagerImage, alt: "Auto elettriche e sostenibili" },
+    { src: EnergySpecialistImage, alt: "SUV spaziosi e versatili" },
+    { src: EconomicSpecialistImage, alt: "Berlina tecnologica e innovativa" },
   ];
 
   const sectionTexts = [
-    "La combo tra percorsi di accelerazione, in presenza o online, ma anche master, con crediti formativi universitari permette di conseguire la laurea in Ingegneria.",
-    "Il nostro Neet che né studia né lavora, sceglie se diventare uno Sviluppatore oppure Analista Dati, ancora un Tecnico specializzato attraverso un percorso gratuito.",
+    "Il mondo delle auto offre infinite possibilità: velocità, comfort, tecnologia e sostenibilità si combinano per creare esperienze di guida uniche.",
+    "Ogni veicolo ha una storia da raccontare: dalle icone del passato alle rivoluzioni elettriche del presente, scopri il fascino e il progresso dell'automotive.",
   ];
 
   return (
     <GenericPageLayout
-      introTitle="Esplora Inclusiva"
+      introTitle="Esplora il Mondo delle Auto"
       introTexts={introTexts}
       galleryImages={galleryImages}
-      sectionTitle="La combo tra percorsi di accelerazione e master"
+      sectionTitle="Dalle auto sportive ai SUV elettrici: il futuro è già qui"
       sectionTexts={sectionTexts}
       sectionImage={AcademyImage}
       sectionImageHover={EnergyManagerImage}

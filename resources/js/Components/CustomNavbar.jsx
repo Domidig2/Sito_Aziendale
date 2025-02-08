@@ -130,7 +130,7 @@ const CustomNavbar = () => {
                 : index === 3
                 ? route('explore-creative') // Creativa
                 : index === 4
-                ? route('inclusive.page') // Inclusiva
+                ? route('explore-inclusiva') // Inclusiva
                 : index === 5
                 ? route('work.page') // Mondo del Lavoro- dona il tuo sostegnp
                 : index === 6
